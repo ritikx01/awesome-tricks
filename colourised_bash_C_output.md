@@ -1,4 +1,20 @@
 Use these code to add colour to the output of your C or Bash script.
+Example usage:
+Bash:
+```bash
+printf "\033[0;35m<Text_here>\033[0m"
+echo -n "\033[0;35m<Text_here>\033[0m"		#Remember to turn of colour at the end or the terminal will continue to use the same colour
+```
+C:
+```c
+#include<stdio.h>
+void main()
+{
+printf("\033[0;35mRitik");
+}
+
+```
+
 
 ```
 # Reset
