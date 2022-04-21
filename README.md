@@ -1,6 +1,6 @@
 # Collection of Tips, tricks or whatever that made my life easier at some point.
 
-##Contents
+## Contents
 1. arch_customize
 > Contains the way I customized my arch linux
 
