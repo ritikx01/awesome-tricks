@@ -22,11 +22,11 @@ or get my config from my dotfiles repo
 ```bash
 mkdir ~/.config/picom
 cd ~/.config/picom
-wget <link>
+wget https://raw.githubusercontent.com/ritikx01/dotfiles/main/.config/picom/picom.conf
 ```
 4. Set picom for autostart
 ```bash
 cd ~/.config/autostart
-wget <link>
+wget https://raw.githubusercontent.com/ritikx01/dotfiles/main/.config/autostart/picom.desktop
 ```
 - In picom config, check for opacity rules if some applications don't get the desired blur effect. Reduce the opacity or just comment out the application name from opacity rules.
