@@ -12,7 +12,7 @@
 ```bash
 paru picom-jonaburg-git
 ```
-2. Disable KDE compositor. ` Settings > Hardware > Display and Monitor > Compositor`
+2. Disable KDE compositor. ` Settings > Hardware > Display and Monitor > Compositor > Uncheck Enable on startup`
 3. Get default picom config and modify it
 ```bash
 mkdir ~/.config/picom
