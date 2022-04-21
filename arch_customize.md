@@ -7,6 +7,11 @@
 ## Setup Apps
 ### picom
 1. Install picom
+	1. Build manually from jonaburg fork `https://github.com/jonaburg/picom`
+	2. Use paru (Arch) to install jonaburg fork
+```bash
+paru picom-jonaburg-git
+```
 2. Disable KDE compositor. ` Settings > Hardware > Display and Monitor > Compositor`
 3. Get default picom config and modify it
 ```bash
