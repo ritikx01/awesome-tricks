@@ -7,11 +7,8 @@
         "id": "d42dc0ddf551bd1d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "arch_customise.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "arch_customise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

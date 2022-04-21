@@ -1,4 +1,4 @@
-# Customise arch with blur effexts and more (KDE)
+# Customise arch with blur effects and more (KDE)
 ## Apps used:
 - kitty (Terminal emulator)
 - picom (Composiitor)
