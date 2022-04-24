@@ -12,8 +12,8 @@ wget https://gist.githubusercontent.com/ritikx01/c8ca6095a8d8e09008fb7fdbae7b043
 ```
 
 4. Execute a previous command again:
-Get position of command from history.
-Command: !\<number\>
+    Get position of command from history.
+    Command: !\<number\>
 ```bash
 history
 1 echo "Hello people"
