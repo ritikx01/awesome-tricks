@@ -11,8 +11,8 @@ cd /etc/X11/xorg.conf.d/
 wget https://gist.githubusercontent.com/ritikx01/c8ca6095a8d8e09008fb7fdbae7b0438/raw/397fd9ed6d901e5c6edfd81ddeeb0dfd31f41fae/99-synaptics-overrides.conf
 ```
 
-4. Execute a previous command again:
-    Get position of command from history.
+4. Execute a previous command again:  
+Get position of command from history.  
     Command: !\<number\>
 ```bash
 history
