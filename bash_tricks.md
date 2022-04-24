@@ -32,3 +32,7 @@ source ~/.bashrc
 ```
 
 6. Hide a command from history: Add a space before command.
+
+7. Execute a previous command with sudo: `!!`.
+
+8. In zsh, run previous command again `r`.
