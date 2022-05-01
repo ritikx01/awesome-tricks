@@ -1,4 +1,4 @@
-Use these code to add colour to the output of your C or Bash script.
+Use these code to add colour to the output of your C or Bash script.  
 Example usage:  
 Bash:
 ```bash
