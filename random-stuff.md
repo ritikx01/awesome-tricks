@@ -1,6 +1,6 @@
-1. Use ipinfo to query about any IP
+1. Use ipinfo.io and ifconfig.me to query about any IP
 ```bash
-curl ipinfo.io			# Get your external IP
+curl ifconfig.me		# Get your external IP
 curl ipinfo.io/127.0.0.1	# Get info about 127.0.0.1
 ```
 2. Use wttr.in for weather report.
