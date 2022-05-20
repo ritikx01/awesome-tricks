@@ -36,3 +36,5 @@ source ~/.bashrc
 7. Execute a previous command with sudo: `!!`.
 
 8. In zsh, run previous command again `r`.
+
+9. Suppress python requests, insecure ssl warning. `export PYTHONWARNINGS="ignore:Unverified HTTPS request"`
