@@ -13,3 +13,5 @@ curl wttr.in/delhi		# weather info of delhi
 3. Backup and restore CouchDB data. Use script https://github.com/danielebailo/couchdb-dump.
 
 4. Cheatsheets collection. https://quickref.me
+
+5. Best Mindmap tool. [Markmap](https://markmap.js.org) with a VSCode and Obsidian plugin.
