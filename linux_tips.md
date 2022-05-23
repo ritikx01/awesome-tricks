@@ -3,9 +3,7 @@
 
 2. Use xclip to copy from terminal
 	`xclip file_name`		<Only paste with middle mouse button>
-	`xclip -sel clip file_name`	<Paste with Ctrl + V>
-
-3. Make touchpad, touch to click work (Arch)
+	`xclip -sel clip file_name`	<Paste with Ctrl + V>3. Make touchpad, touch to click work (Arch)
 ```bash
 cd /etc/X11/xorg.conf.d/
 wget https://gist.githubusercontent.com/ritikx01/c8ca6095a8d8e09008fb7fdbae7b0438/raw/397fd9ed6d901e5c6edfd81ddeeb0dfd31f41fae/99-synaptics-overrides.conf
@@ -38,3 +36,16 @@ source ~/.bashrc
 8. In zsh, run previous command again `r`.
 
 9. Suppress python requests, insecure ssl warning. `export PYTHONWARNINGS="ignore:Unverified HTTPS request"`
+
+10. Install a ca-certificate (.crt) system wide. 
+```bash
+sudo cp certificate.crt /usr/local/share/ca-certificates
+sudo update-ca-certificates
+```
+To istall a .pem or .cer format certificate we need to convert it to .crt format.
+```bash
+# To convert pem
+openssl x509 -in foo.pem -inform PEM -out foo.crt
+# To convert cer
+openssl x509 -inform DER -in foo.cer -out foo.crt
+```
