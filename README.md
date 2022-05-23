@@ -4,11 +4,11 @@
 1. arch_customize
 	- Contains the way I customized my arch linux
 
-2. bash_tricks
-	- Contains some nice bash tricks
-
-3. colourised_bash_C_output
+2. colourised_bash_C_output
 	- Take a look at it if you want to add colours to your C or bash output.
+
+3. linux_tips
+	- Contains some good linux tips
 
 4. mitm-proxy
 	- mitm proxy can be used to play with requests on the fly. THis eliminates the need of starting a full blown proxy application like BurpSuite or ZAP. 
