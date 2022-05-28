@@ -49,3 +49,10 @@ openssl x509 -in foo.pem -inform PEM -out foo.crt
 # To convert cer
 openssl x509 -inform DER -in foo.cer -out foo.crt
 ```
+11. Set a system wide proxy in linux.
+```bash
+git clone https://github.com/himanshub16/ProxyMan.git
+cd ProxyMan
+./install.sh
+proxyman set
+```
